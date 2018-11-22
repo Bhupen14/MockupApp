@@ -1,0 +1,251 @@
+body
+{
+background-color: gray;
+}
+
+.mainFrame
+{
+    height:800px;
+    width:1000px;
+    border:1px solid black;
+    background-color: white;
+    margin: 0 auto;
+
+}
+
+.header
+{
+    height:100px;
+    width:100%;
+    /* border:1px solid black; */
+
+}
+
+.searchBar
+{
+    position: relative;
+    float: left;
+    height:40%;
+    width:280px;
+    border-radius: 50px;
+    border:1px solid gray;
+    margin:25px 0px 0px 0px;
+}
+.imgSearch
+{
+    position: relative;
+    float: left;
+    height:15px;
+    width:15px;
+    top:12px;
+    left:10px;
+}
+
+.serchInput
+{
+    position: relative;
+    height:25px;
+    width:215px;
+    margin:5px 0px 0px 15px;
+    font-size: 16px;
+    border:none;
+}
+.serchInput:active
+{
+    border: none;
+}
+
+.cancleInput
+{
+    position: relative;
+    float: right;
+    height:15px;
+    width:15px;
+    top:12px;
+    left:-6px;
+}
+
+
+.loginInfo
+{
+    position: relative;
+    float: right;
+    height:30px;
+    width:180px;
+    /* border:1px solid gray; */
+    margin:20px 60px 0px 0px;
+
+}
+
+.loginImg
+{
+    width:150px;
+    margin:0px 0px 0px 0px;
+
+}
+
+.sideBar
+{
+    position: relative;
+    float: left;
+    height:70%;
+    width:25%;
+    /* border:1px solid gray; */
+
+
+}
+.peopleList
+{
+    /* display: inline-block; */
+    margin:0px 0px 0px 0px;
+ 
+}
+ul{
+    margin:0px 0px 0px 0px;
+    padding:0px 0px 0px 0px;
+    position: relative;
+    /* float: left; */
+    /* width:200px; */
+
+}
+li
+{
+    position: relative;
+    display:block;
+    font-size: 22px;
+    font-weight: bold;
+    padding:40px 0px 0px 0px;
+    border: 1px solid gray;
+    margin:0px 0px 0px 0px;
+    text-align:left;
+    height:70px;
+}
+li:hover
+{
+    background-color: beige;
+}
+li:active
+{
+    background-color: cornsilk;
+    color: blue;
+}
+.artical
+{
+    position: relative;
+    float: right;
+    height:70%;
+    width:72%;
+    /* border:1px solid black; */
+
+}
+.listimg
+{
+    position: relative;
+    float: right;
+    margin:0px 0px 0px 0px;
+  
+}
+
+span
+{
+    position: relative;
+    float: right;
+
+}
+
+.infoPicture
+{
+    position: relative;
+    float: left;
+    height:100px; 
+    width: 100px;
+    border:1px solid gray;
+    margin:0px 0px 0px 0px;
+    border-radius: 10px;
+
+}
+.messagerankBox
+{
+    position: relative;
+    float: left;
+    height:80px; 
+    width: 150px;
+    /* border:1px solid gray; */
+    margin:0px 0px 0px 90px;
+
+}
+
+.sandMessage
+{
+    position: relative;
+    float: left;
+    height:35px; 
+    width: 150px;
+    border:1px solid gray;
+    margin:0px 0px 0px 0px;
+    border-radius: 5px;
+    background-color: black;
+    color:white;
+    text-align: center;
+    font-size: 12px;
+}
+
+.rankInfo
+{
+    /* background-image: url("src/assets/PNG/heart.png"); */
+    background-position: 0px 37px;
+    background-size: 30px;
+    background-repeat: repeat-x 5;
+    padding: 5px 0px 0px 0px;
+    font-size: 22px;
+    font-weight: bold;
+    background-color:white;
+}
+.personalInfo 
+{
+    /* clear: both; */
+    position: relative;
+    /* float:left; */
+    border-left: 2px solid gray;
+    margin:140px 0px 0px 0px;
+    padding: 0px 0px 0px 10px;
+    font-size: 22px;
+    height:20px;
+
+}
+.likedislikeBox
+{
+    height:160px;
+    width:718px;
+    position: relative;
+    border:1px solid lightgrey;  
+    margin:125px 0px 0px 0px;
+}
+.likedislikeBoxLeft
+{
+    position: relative;
+    float: left;
+    height:30px;
+   width:50%;
+    border:1px solid lightgrey;  
+
+}
+.likedislikeBoxLeft p
+{
+    margin:5px 0px 0px 8px;
+    /* font-weight: bold; */
+}
+.likedislikeBoxRight
+{
+   position: relative;
+   float: right;
+    height:30px;
+   width:49%;
+    border:1px solid lightgrey;  
+
+} 
+.likedislikeBoxRight p
+{
+    margin:5px 0px 0px 8px;
+    /* font-weight: bold;   */
+}

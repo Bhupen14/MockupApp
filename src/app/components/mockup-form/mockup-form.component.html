@@ -1,0 +1,63 @@
+
+<form class ="mainFrame" >
+  <div class = "header">
+      <div class = "searchBar">
+      <a href="" ><img class ="imgSearch" src="assets/PNG/zoom-in.png"></a>
+      <input class="serchInput" type="text" placeholder="Search">   
+      <a href="" ><img class ="cancleInput" src="assets/PNG/cross.png"></a>
+  </div>
+
+  <div class = "loginInfo">
+    <span>
+      <p class ="loginImg">Peter Hoang
+      <a href="" ><img  src="assets/PNG/user.png"></a>
+      </p>
+    </span>
+  </div>
+  </div>
+
+  <div class = "sideBar">
+    <ul class="peopleList">
+      <li id = "listItems" *ngFor = "let i of data_Info" (click)="LoadMyInfo(i)"> {{i.name}} <span><img src="assets/PNG/play3.png"></span></li>
+    </ul>
+  </div>
+
+  <div class = "artical">
+    <img  class ="infoPicture" src="{{P_Img}}">
+     <!--" data_Info[0].img}}">-->
+  
+    <div class="messagerankBox">
+        <div class="sandMessage">
+          <p>SEND MESSAGE</p>
+        </div>
+      
+      <div> 
+        <img  class="rankInfo" src="assets/PNG/heart.png" id="rank1" height="30px" width="30px" color="red">
+        <img src="assets/PNG/heart.png" id="rank2" height="30px" width="30px">  
+        <img src="assets/PNG/heart.png" id="rank3" height="30px" width="30px">
+        <img src="assets/PNG/heart.png" id="rank4" height="30px" width="30px">  
+        <img src="assets/PNG/heart.png" id="rank5" height="30px" width="30px">  
+         
+      </div>
+
+    </div>
+  <div class="personalInfo">
+      <p>{{desc}}</p>
+    </div>
+  <div class = "likedislikeBox">
+      <div class="likedislikeBoxLeft"><p><b>Likes</b></p></div>
+      <div class="likedislikeBoxRight"><p><b>Dislikes</b></p></div>
+      <div class="likedislikeBoxLeft" id="like1"><p></p></div>
+      <div class="likedislikeBoxRight" id="dislike1"><p></p></div>
+      <div class="likedislikeBoxLeft" id="like2"><p></p></div>
+      <div class="likedislikeBoxRight" id="dislike2"><p></p></div>
+      <div class="likedislikeBoxLeft" id="like3"><p></p></div>
+      <div class="likedislikeBoxRight" id="dislike3"><p></p></div>
+      <div class="likedislikeBoxLeft" id="like4"><p></p></div>
+      <div class="likedislikeBoxRight" id="dislike4"><p></p></div>
+  
+  
+  </div>
+  
+</div>
+</form>
