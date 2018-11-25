@@ -22,7 +22,7 @@ import { DataService } from './services/data.service';
     HttpClientModule
     
   ],
-  providers: [],
+  providers: [DataService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
